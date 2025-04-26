@@ -1,5 +1,5 @@
 from function import *
-from keras.utils import to_categorical     # type: ignore
+from keras.utils import to_categorical     # type:ignore
 from keras.models import model_from_json   # type: ignore
 from keras.layers import LSTM, Dense       # type: ignore
 from keras.callbacks import TensorBoard    # type: ignore
